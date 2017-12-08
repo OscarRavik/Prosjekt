@@ -40,7 +40,7 @@ nav a {
 }
 nav a:first-child {
     text-align: left;
-    padding: 5px ;
+    padding: 5px 0 5px 15px ;
 }
 
 nav a:hover {
@@ -122,6 +122,9 @@ footer {
         position: absolute;
         left: 0;
         top: 80px;
+    }
+    #hamburger:checked ~ #appear a:last-child{
+        border-bottom: 1px solid black;
     }
     #hamburger:checked + label img{
         transform: rotate(90deg);
