@@ -88,7 +88,7 @@ main {
     flex-basis: 800px;
     flex-grow: 0;
     flex-shrink: 0;
-    height: 1100px;
+    height: auto;
     border: solid 1px black;
     border-bottom: none;
     border-top: none;
