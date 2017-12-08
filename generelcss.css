@@ -88,40 +88,11 @@ main {
     flex-basis: 800px;
     flex-grow: 0;
     flex-shrink: 0;
-    height: auto;
+    height: 1100px;
     border: solid 1px black;
     border-bottom: none;
     border-top: none;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    padding: 20px;
-    grid-auto-rows: auto;
-    grid-gap: 20px;
 }
-#content img {
-    width: 100%;
-}
-
-#content h1{
-    text-align: center;
-    text-decoration: none;
-    color: black;
-}
-
-main img{
-    border: 1px solid black;
-}
-
-.span1 {
-    grid-column: span 1;
-}
-.span2 {
-    grid-column: span 2;
-}
-
-
-
-
 
 
 
@@ -129,7 +100,6 @@ footer {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
-
 
 
 
@@ -172,9 +142,6 @@ footer {
         flex-grow: 1;
         flex-shrink: 1;
     }
-    .span1{
-        grid-column: span 2;
-    }
 
 }
 
@@ -188,3 +155,7 @@ footer {
 }
 
 
+
+.span2 {
+    grid-column: span 2;
+}
