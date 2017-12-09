@@ -81,7 +81,7 @@ main {
 #right, #left {
     flex-shrink: 1;
     flex-grow: 1;
-    background-color: lightgrey;
+    background-color: #ededed;
 }
 
 #content {
@@ -104,12 +104,15 @@ main {
 
 #content h1{
     text-align: center;
-    text-decoration: none;
     color: black;
 }
 
 main img{
     border: 1px solid black;
+}
+main a{
+    text-decoration: none;
+    color: black;
 }
 
 .span1 {
@@ -119,7 +122,9 @@ main img{
     grid-column: span 2;
 }
 
-
+main a:hover{
+    text-decoration: underline;
+}
 
 
 
