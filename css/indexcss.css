@@ -22,7 +22,7 @@ nav {
 }
 header nav{
     display: grid;
-    grid-template-columns: auto repeat(4, 1fr);
+    grid-template-columns: auto repeat(5, 1fr);
     height: 80px;
 }
 nav img{
@@ -73,6 +73,9 @@ nav #tom {
     display: none;
 }
 
+#active {
+    text-decoration: underline;
+}
 
 main {
     display: flex;
@@ -136,10 +139,14 @@ footer {
 }
 
 
+@media (max-width: 900px){
+    .link {
+        font-size: 16px;
+    }
+}
 
 
-
-@media (max-width: 650px){
+@media (max-width: 800px){
     header nav{
         grid-template-columns: auto 1fr 100px;
         grid-auto-rows: 80px;
