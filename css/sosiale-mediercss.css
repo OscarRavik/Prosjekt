@@ -72,7 +72,7 @@ nav #appear a{
 nav #tom {
     display: none;
 }
-#active {
+.active {
     text-decoration: underline;
 }
 
