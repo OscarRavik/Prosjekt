@@ -1,0 +1,26 @@
+#innhold{
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    padding: 30px;
+}
+
+.content h1, .content h2{
+    text-align: center;
+    margin: 20px;
+}
+
+
+.topbilde {
+    width: 100%;
+    border-bottom: 1px solid black;
+}
+.icon {
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    border: none;
+}
+p {
+    font-size: 20px;
+}

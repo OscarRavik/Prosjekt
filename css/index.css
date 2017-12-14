@@ -1,0 +1,40 @@
+.content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 20px;
+    grid-auto-rows: auto;
+    grid-gap: 20px;
+}
+
+.content img {
+    width: 100%;
+}
+
+.content h1{
+    text-align: center;
+    color: black;
+}
+
+main img{
+    border: 1px solid black;
+}
+main a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+main a:hover{
+    text-decoration: underline;
+}
+
+@media (max-width: 800px) {
+    .span1{
+        grid-column: span 2;
+    }
+}
+
+.span2 {
+    grid-column: span 2;
+}
