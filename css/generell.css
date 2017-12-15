@@ -95,7 +95,55 @@ main {
     border-bottom: none;
     border-top: none;
 }
+.content a:hover{
+    color: black;
+}
 
+
+.piler {
+    height: 100%;
+    vertical-align: center;
+    max-width: 120px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.navigasjoncontainer {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    display: block;
+}
+.navigasjon {
+    display: inline-block;
+    height: 60px;
+    padding: 20px;
+    line-height: 60px;
+
+
+}
+.navigasjon a{
+    color: black;
+    text-align: center;
+    font-size: 20px;
+    margin: 30px;
+    text-decoration: none;
+
+}
+.navigasjon a:hover {
+    text-decoration: underline;
+}
+.mellomrom {
+    width: 30px;
+}
+.start {
+    text-align: left;
+}
+.slutt {
+    text-align: right;
+}
+.alene {
+    display: block;
+}
 
 
 footer {
@@ -148,19 +196,25 @@ footer {
         flex-grow: 1;
         flex-shrink: 1;
     }
+    .navigasjon{
+        display: none;
+    }
 
 }
 
 footer {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    text-align: center;
+    grid-template-columns: 3fr 1fr;
     padding: 20px;
     border-top: 1px solid black;
+}
+footer article a{
+    color: black;
 }
 footer .span2 {
     grid-column: span 1;
 }
+
 
 
 

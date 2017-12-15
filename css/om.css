@@ -7,12 +7,16 @@
 }
 
 #norge {
-    width: 500px;
+    max-width: 500px;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
-p {
+.content p {
     margin: 20px;
     font-size: 20px;
+}
+#toppbilde {
+    width: 100%;
+    border-bottom: 1px solid black;
 }
