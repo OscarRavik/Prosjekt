@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: 2fr 5fr;
 }
-.content img{
+.content .tekstbilde{
     width: 100%;
 }
 .content h1, .content h2{
