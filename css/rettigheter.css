@@ -13,6 +13,12 @@
 .content p {
     margin: 20px;
     font-size: 20px;
+    padding: 30px 30px 0 30px;
+}
+.lover {
+    border-bottom: 1px black solid;
+    border-top: 1px black solid;
+    width: 100%;
 }
 
 .topbilde {
