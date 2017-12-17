@@ -4,11 +4,15 @@
     padding:0;
     Font-family:sans-serif;
 }
+html {
+    height: 100%;
+}
 
 body {
     width: 100%;
     display: grid;
     grid-template-rows: 80px auto auto;
+    min-height: 100%;
 }
 
 footer, header {
@@ -92,6 +96,7 @@ main {
     flex-grow: 0;
     flex-shrink: 0;
     height: auto;
+    min-height: 95vh;
     border: solid 1px black;
     border-bottom: none;
     border-top: none;
@@ -198,7 +203,7 @@ footer {
         flex-grow: 1;
         flex-shrink: 1;
     }
-    .navigasjon{
+    .start{
         display: none;
     }
 
@@ -219,7 +224,9 @@ footer .span2 {
 
 
 
-
+.span1 {
+    grid-column: span 1;
+}
 .span2 {
     grid-column: span 2;
 }

@@ -24,3 +24,13 @@
 .content p {
     font-size: 20px;
 }
+
+@media (max-width: 800px) {
+    .span1 {
+        grid-column: span 2;
+    }
+    .icon {
+        margin: 20px auto 20px auto;
+    }
+
+}
