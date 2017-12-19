@@ -88,6 +88,8 @@ nav #tom {
     text-decoration: underline;
 }
 
+
+
 main {
     display: flex;
 }
@@ -110,6 +112,7 @@ main {
 .content a:hover{
     color: black;
 }
+
 
 
 
@@ -236,3 +239,4 @@ footer .span2 {
 .span2 {
     grid-column: span 2;
 }
+
