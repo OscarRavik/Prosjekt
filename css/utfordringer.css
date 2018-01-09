@@ -1,4 +1,4 @@
-.content .tekstbilde{
+.content{
     width: 100%;
 }
 .content h1, .content h2{
@@ -11,6 +11,9 @@
     font-size: 20px;
 }
 #toppbilde {
-    width: 100%;
     border-bottom: 1px solid black;
+}
+
+.content img {
+    width: 100%;
 }
