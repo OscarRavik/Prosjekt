@@ -69,8 +69,8 @@ nav label {
 
 nav #appear {
     display: none;
-    width: 101vw;
-    height: 320px;
+    width: 100%;
+    height: 0px;
     background: linear-gradient(to top right, lightskyblue, dodgerblue);
 }
 
@@ -168,6 +168,7 @@ footer {
 
 
 
+
 @media (max-width: 800px){
     header nav{
         grid-template-columns: auto 1fr 100px;
@@ -211,6 +212,13 @@ footer {
     }
     h3 {
         font-size: 18px;
+    }
+    .slutt{
+        text-align: center;
+        padding: 0;
+    }
+    .slutt a{
+        margin: 0;
     }
 
 }
