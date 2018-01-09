@@ -12,13 +12,10 @@ body {
     grid-template-rows: 80px auto auto;
 }
 
-footer, header {
-    background-color: lightskyblue;
-}
 
 
 nav {
-    background-color: lightskyblue;
+    background: linear-gradient(to bottom right, lightskyblue, dodgerblue);
     border-bottom: solid 1px black;
 }
 
@@ -74,11 +71,12 @@ nav #appear {
     display: none;
     width: 101vw;
     height: 320px;
+    background: linear-gradient(to top right, lightskyblue, dodgerblue);
 }
 
 nav #appear a{
     text-align: center;
-    background-color: lightskyblue;
+
 }
 
 nav #tom {
@@ -165,14 +163,10 @@ main {
 footer {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    background: linear-gradient(to top right, lightskyblue, dodgerblue);
 }
 
 
-@media (max-width: 900px){
-    .link {
-        font-size: 14px;
-    }
-}
 
 @media (max-width: 800px){
     header nav{
