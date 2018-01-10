@@ -17,6 +17,7 @@ body {
 nav {
     background: linear-gradient(to bottom, lightskyblue, dodgerblue);
     border-bottom: solid 1px black;
+    width: 100%;
 }
 
 header nav{
